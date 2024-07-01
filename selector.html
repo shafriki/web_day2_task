@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        /* using element selector */
+        h1{
+            color: indigo;
+            text-align: center;
+            font-size: larger;
+        }
+        /* using class selector */
+        .a{
+            color: forestgreen;
+            font-weight: 700;
+            font-style: italic;
+        }
+        /* using id selector */
+        #five{
+            font-size: 30px;
+            color: tomato;
+            background-color: snow;
+            width: 50%;
+        }
+        form{
+            font-size: 30px;
+            color: springgreen;
+        }
+        input{
+            font-size: 30px;
+            width: 50%;
+
+        }
+        input[type="password"]{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Explore Mixed Selectors</h1>
+    <p class="a">My First line CSS</p>
+    <p>My Second line CSS</p>
+    <p class="a">My Third line CSS</p>
+    <p>My Fourth line CSS</p>
+    <p class="a">My Fifth line CSS</p>
+    <p id="five">My Sixth line CSS</p>
+
+    <form action="">
+        <label for="">username</label><br>
+        <input type="text" placeholder="Enter Name"><br>
+        <label for="">password</label><br>
+        <input type="password" placeholder="Enter Password"><br>
+        <p>No account? <a href="">Register Here</a></p>
+    </form>
+</body>
+</html>
