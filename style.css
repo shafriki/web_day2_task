@@ -37,6 +37,16 @@ form{
     font-family: cursive;
     background-color: whitesmoke;
 }
-.Rform{
-    
+
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+
+#but{
+    background-color: pink;
+    color: red;
+    width: 20%;
 }
