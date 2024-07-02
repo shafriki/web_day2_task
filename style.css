@@ -26,3 +26,17 @@ ol{
     padding: 23px;
     width: 23%;
 }
+form{
+    margin: 23px;
+    padding: 23px;
+    border-top: 23px solid indigo;
+    border-bottom: 23px solid indigo;
+    border-radius: 23px;
+    width: 50%;
+    font-size: 23px;
+    font-family: cursive;
+    background-color: whitesmoke;
+}
+.Rform{
+    
+}
